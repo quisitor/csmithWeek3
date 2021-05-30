@@ -1,0 +1,102 @@
+/**
+ * @Course: SDEV-450-81 ~ Java Programming III EE
+ * @Author Name: Craig Smith
+ * @Assignment Name: csmithweek3
+ * @Date: May 27, 2021
+ * @Description: Cascading Style Sheet for the Main GUI
+ */
+
+.root{
+    -fx-background-color: #999999;
+    -fx-border-width: 20px;
+}
+
+.label {
+    -fx-text-fill: #0000ff;
+    -fx-font-size: 24px;
+}
+
+#name-field {
+    -fx-pref-width: 240px;
+    -fx-font-size: 24px;
+    -fx-border-style: solid outside line-join bevel;
+    -fx-border-color: #000000;
+}
+
+#age-field {
+    -fx-pref-width: 125px;
+    -fx-font-size: 24px;
+    -fx-border-style: solid outside line-join bevel;
+    -fx-border-color: #000000;
+}
+
+#input-area {
+    -fx-border-color: #000000;
+    -fx-border-width: 3px;
+    -fx-text-fill: #000099;
+    -fx-focus-traversable: false;
+    -fx-pref-height: 440px;
+    -fx-border-style: solid outside line-join bevel;
+    -fx-font-size: 24px;
+    -fx-pref-width: 200px;
+    -fx-wrap-text: true;
+ 
+}
+
+#output-area {
+    -fx-border-color: #000000;
+    -fx-border-width: 3px;
+    -fx-text-fill: #000099;
+    -fx-focus-traversable: false;
+    -fx-pref-height: 708px;
+    -fx-border-style: solid outside line-join bevel;
+    -fx-font-size: 24px;
+    -fx-pref-width: 550px
+}
+
+.hbox {
+    -fx-padding: 15px;
+    -fx-spacing: 15px;
+    -fx-vgap: 10px;
+    -fx-alignment: BOTTOM_LEFT;
+    -fx-hgap: 10px;
+    -fx-halignment:  left;
+}
+
+.vbox {
+    -fx-padding: 15px;
+    -fx-spacing: 15px;   
+    -fx-background-color: #999999;
+}
+
+.grid-pane {
+    -fx-border-color: #999999;
+}
+
+.button {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 30px;
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-border-style: solid outside line-join bevel;
+    -fx-border-color: #000000;
+    -fx-focus-traversable: true;
+}
+
+.button:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
+
+.button:focused {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
+
+.button:pressed {
+    -fx-background-color: #000000;
+    -fx-text-fill: red;
+}
+
+
